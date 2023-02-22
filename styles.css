@@ -11,7 +11,7 @@ table, td {
 }
 
 .container_main {
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     border: 5px solid black;
     padding: 15px;
 }
@@ -91,5 +91,13 @@ p {
     font-size: 1pt;
     margin-left: 15px;
     margin-right: 15px;
+}
+
+.line_favourite_place {
+    background-color: rgba(150, 147, 229, 0.707);
+    font-size: 1pt;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
 }
 
