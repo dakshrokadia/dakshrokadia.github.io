@@ -1,3 +1,88 @@
-table, th, td {
-    border: 1px solid black;
+body {
+    background-color: rgba(170, 238, 218, 0.28);
+    padding: 30px;
 }
+
+
+table, td {
+    border: 1px solid black;
+    background-color: rgba(214, 214, 214, 0.28);
+    padding: 5px;
+}
+
+.container_main {
+    background-color: aliceblue;
+    border: 5px solid black;
+    padding: 15px;
+}
+
+th {
+    padding: 5px;
+}
+
+h1 {
+    color: rgba(228, 176, 127, 0.989);
+    font-size: 50px;
+    font-family:'Georgia', Times, serif;
+}
+
+h3 {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h5 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container_timetable {
+    background-color: antiquewhite;
+
+}
+
+.line_my_name {
+    background-color: rgba(150, 147, 229, 0.707);
+    font-size: 1pt;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.line_my_family {
+    background-color: rgba(150, 147, 229, 0.707);
+    font-size: 1pt;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.line_about_me {
+    background-color: rgba(150, 147, 229, 0.707);
+    font-size: 1pt;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.line_2023_subjects {
+    background-color: rgba(150, 147, 229, 0.707);
+    font-size: 1pt;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.line_timetable {
+    background-color: rgba(150, 147, 229, 0.707);
+    font-size: 1pt;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
+}
+
+.line_internet {
+    background-color: rgba(150, 147, 229, 0.707);
+    font-size: 1pt;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
