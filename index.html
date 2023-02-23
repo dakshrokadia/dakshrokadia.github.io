@@ -11,6 +11,13 @@
 			#favourite_music_note {
 				font-size: 12px;
 			}
+			#music_1_artist {
+				color: rgb(135, 135, 135);
+			}
+			#music_2_artist {
+				color: rgb(135, 135, 135);
+			}
+
 		</style>
     </head>
     <body>
@@ -29,8 +36,10 @@
 				<li>Timetable</li>
 				<li>How I use the internet</li>
 				<li>My Favourite Place in New Zealand</li>
-				<a href="line_favourite_place"><li>My Favourite Music</li></a>
+				<a href="my_favourite_music"><li>My Favourite Music</li></a>
 			</ol>
+
+			<!--Need to complete contents!!!!!!!!!!!!-->
 
 			<div class="line_contents">
 				<p>‏‎</p>
@@ -161,11 +170,24 @@
 				<p>‏‎</p>
 			</div>
 
-			<h3>My Favorite music</h3>
+			<h3 id="my_favourite_music">My Favorite music</h3>
 			<p>To me, Music makes a major part of my life. I cant live without music. I have many songs i like but a few are shown below. Music playback is powerd by apple music - my preffered music player.</p>
-			<p id="favourite_music_note">Note: Music is powered by apple music and plays a short snippet, Double click grey space if not displaying.</p>
+			<p id="favourite_music_note">Note: Music is powered by apple music and plays a short snippet, Double click grey space if not displaying. <strong> Traditional audio method displayed below</strong></p>
 			<iframe allow="encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/nz/album/like-my-father/1567189549?i=1567189550"></iframe>
 			<iframe allow="encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/nz/album/teenage-dream/1663919372?i=1663919377"></iframe>
+			<P><em>Alternative:</em></P>
+			<div class="music_1_container">
+				<p id="music_1_name">Like My Father</p>
+				<p id="music_1_artist">Jax</p>
+				<audio controls src="jax_music_1.mp3"></audio>
+			</div>
+			<div class="music_2_container">
+				<p id="music_2_name">Teenage Dream</p>
+				<p id="music_2_artist">Stephan Dawes</p>
+				<audio controls src="Stephen_Dawes_music_2.mp3"></audio>
+			</div>
+			
+			
 		</div>
 	</body>
 </html>
