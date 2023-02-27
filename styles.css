@@ -17,6 +17,10 @@ html {
     color-scheme: dark;
 }
 
+.header_title {
+    font-size: 3rem;
+}
+
 section {
     padding-block: 5rem;
 
