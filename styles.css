@@ -1,12 +1,7 @@
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
 
 @font-face {
-    font-family: myFirstFont;
-    src: url(sansation_light.woff);
+    font-family: font1;
+    src: url(font1.ttf);
 }
 
 body {
@@ -31,7 +26,7 @@ html {
 
 .background_title {
     width: auto;
-    height: 400px;
+    height: 500px;
     background-image: url("1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -44,12 +39,81 @@ html {
 
 .header_title {
 
-    font-size: 4em;
+    font-size: 5.5em;
     text-align: center;
-    background: -webkit-linear-gradient(50deg,#ffffff 10%, #ffffff 50%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding-top: 90px;
+    font-family: font1;
+    color: rgb(255, 255, 255);
+
+}
+
+.background_contents {
+    background-color: rgba(39, 39, 39, 0.811);
+    margin: 15px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.background_about {
+
+    position: relative;
+    background-color: rgba(39, 39, 39, 0.811);
+    margin: 15px;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.background_family {
+
+    position: relative;
+    background-color: rgba(39, 39, 39, 0.811);
+    margin: 15px;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.background_nz {
+
+    position: relative;
+    background-color: rgba(39, 39, 39, 0.811);
+    margin: 15px;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.background_internet {
+
+    position: relative;
+    background-color: rgba(39, 39, 39, 0.811);
+    margin: 15px;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.background_subjects {
+
+    position: relative;
+    background-color: rgba(39, 39, 39, 0.811);
+    margin: 15px;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.background_timetable {
+
+    position: relative;
+    background-color: rgba(39, 39, 39, 0.811);
+    margin: 15px;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.background_music {
+
+    position: relative;
+    background-color: rgba(39, 39, 39, 0.811);
+    margin: 15px;
+    border-radius: 5px;
+    padding: 30px;
 }
 
 section {
@@ -68,35 +132,12 @@ section {
     font-size: 2.25rem;
 }
 
-.diagonal {
-    --skew-angle: -4deg;
-    --background: linear-gradient(
-                    4deg,
-                    #12c2e9,
-                    #c471ed
-                    );
-
-    position: relative;
-    isolation: isolate;
-}
-
-.diagonal ::after { 
-    content: '';
-    background: var(--background);
-    position: absolute;
-    inset: 0;
-    /*sets the angle and sets it behind the color*/
-    transform: skewY(var(--skew-angle));
-    z-index: -1;
-}
-
-
 
 /*table*/
 
 table, td {
     border: 1px solid black;
-    background-color: rgba(214, 214, 214, 0.28);
+    background-color: rgba(214, 214, 2104, 0.28);
     padding: 5px;
     border-radius: 5px;
 }
