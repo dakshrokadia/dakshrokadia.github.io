@@ -47,7 +47,13 @@ html {
 }
 
 .background_contents {
-    background-color: rgba(39, 39, 39, 0.811);
+    background-image: linear-gradient(
+                                        15deg,
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39),
+                                        rgb(44, 44, 44),
+                                        rgb(38, 38, 83)
+                                    );
     margin: 15px;
     padding: 30px;
     border-radius: 5px;
@@ -56,7 +62,13 @@ html {
 .background_about {
 
     position: relative;
-    background-color: rgba(39, 39, 39, 0.811);
+    background-image: linear-gradient(
+                                        220deg,
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39),
+                                        rgb(44, 44, 44),
+                                        rgb(83, 82, 38)
+                                    );
     margin: 15px;
     border-radius: 5px;
     padding: 30px;
@@ -65,7 +77,13 @@ html {
 .background_family {
 
     position: relative;
-    background-color: rgba(39, 39, 39, 0.811);
+    background-image: linear-gradient(
+                                        -30deg,
+                                        rgb(83, 38, 63),
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39),
+                                        rgb(83, 82, 38)
+                                    );
     margin: 15px;
     border-radius: 5px;
     padding: 30px;
@@ -74,7 +92,13 @@ html {
 .background_nz {
 
     position: relative;
-    background-color: rgba(39, 39, 39, 0.811);
+    background-image: linear-gradient(
+                                        60deg,
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39),
+                                        rgb(44, 44, 44),
+                                        rgb(83, 38, 63)
+                                    );
     margin: 15px;
     border-radius: 5px;
     padding: 30px;
@@ -83,7 +107,13 @@ html {
 .background_internet {
 
     position: relative;
-    background-color: rgba(39, 39, 39, 0.811);
+    background-image: linear-gradient(
+                                        -120deg,
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39),
+                                        rgb(47, 92, 75)
+                                    );
     margin: 15px;
     border-radius: 5px;
     padding: 30px;
@@ -92,7 +122,13 @@ html {
 .background_subjects {
 
     position: relative;
-    background-color: rgba(39, 39, 39, 0.811);
+    background-image: linear-gradient(
+                                        130deg,
+                                        rgb(47, 92, 75),
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39)  ,
+                                        rgb(39, 39, 39)
+                                    );
     margin: 15px;
     border-radius: 5px;
     padding: 30px;
@@ -110,7 +146,28 @@ html {
 .background_music {
 
     position: relative;
-    background-color: rgba(39, 39, 39, 0.811);
+    background-image: linear-gradient(
+                                        30deg,
+                                        rgb(47, 74, 92),
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39)  ,
+                                        rgb(39, 39, 39)
+                                    );
+    margin: 15px;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.background_career {
+
+    position: relative;
+    background-image: linear-gradient(
+                                        120deg,
+                                        rgb(47, 74, 92),
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39)  ,
+                                        rgb(39, 39, 39)
+                                    );
     margin: 15px;
     border-radius: 5px;
     padding: 30px;
@@ -135,16 +192,17 @@ section {
 
 /*table*/
 
-table, td {
+table, td, th {
     border: 1px solid black;
     background-color: rgba(214, 214, 2104, 0.28);
     padding: 5px;
-    border-radius: 5px;
+    
+    text-align: center;
+    border-collapse: collapse;
+    
 }
 
-th {
-    padding: 5px;
-}
+
 
 /*
 h1 {
