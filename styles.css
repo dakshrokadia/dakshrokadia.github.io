@@ -48,7 +48,7 @@ html {
 
 .background_contents {
     background-image: linear-gradient(
-                                        15deg,
+                                        8deg,
                                         rgb(39, 39, 39),
                                         rgb(39, 39, 39),
                                         rgb(44, 44, 44),
@@ -78,7 +78,7 @@ html {
 
     position: relative;
     background-image: linear-gradient(
-                                        -30deg,
+                                        -35deg,
                                         rgb(83, 38, 63),
                                         rgb(39, 39, 39),
                                         rgb(39, 39, 39),
@@ -93,7 +93,7 @@ html {
 
     position: relative;
     background-image: linear-gradient(
-                                        60deg,
+                                        45deg,
                                         rgb(39, 39, 39),
                                         rgb(39, 39, 39),
                                         rgb(44, 44, 44),
@@ -108,7 +108,7 @@ html {
 
     position: relative;
     background-image: linear-gradient(
-                                        -120deg,
+                                        -140deg,
                                         rgb(39, 39, 39),
                                         rgb(39, 39, 39),
                                         rgb(39, 39, 39),
@@ -123,7 +123,7 @@ html {
 
     position: relative;
     background-image: linear-gradient(
-                                        130deg,
+                                        140deg,
                                         rgb(47, 92, 75),
                                         rgb(39, 39, 39),
                                         rgb(39, 39, 39)  ,
@@ -137,7 +137,15 @@ html {
 .background_timetable {
 
     position: relative;
-    background-color: rgba(39, 39, 39, 0.811);
+    background-image: linear-gradient(
+                                        -70deg,
+                                        rgba(47, 74, 92, 0.303),
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39)
+                                    );
     margin: 15px;
     border-radius: 5px;
     padding: 30px;
@@ -147,10 +155,10 @@ html {
 
     position: relative;
     background-image: linear-gradient(
-                                        30deg,
+                                        -70deg,
                                         rgb(47, 74, 92),
                                         rgb(39, 39, 39),
-                                        rgb(39, 39, 39)  ,
+                                        rgb(39, 39, 39),
                                         rgb(39, 39, 39)
                                     );
     margin: 15px;
@@ -162,10 +170,10 @@ html {
 
     position: relative;
     background-image: linear-gradient(
-                                        120deg,
+                                        240deg,
                                         rgb(47, 74, 92),
                                         rgb(39, 39, 39),
-                                        rgb(39, 39, 39)  ,
+                                        rgb(39, 39, 39),
                                         rgb(39, 39, 39)
                                     );
     margin: 15px;
