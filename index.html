@@ -4,6 +4,8 @@
         <meta charset="utf-8">
         <title>Daksh Rokadia Personal Page</title>
 		<link rel="stylesheet" href="styles.css">
+		<script type="text/javascript" src="script.js">            
+		</script>
 		<style>
 			#astrofix {
 				font-size: 12px;
@@ -32,7 +34,16 @@
 			#link:hover {
 				color: rgb(197, 202, 229)
 			}
+			.careers-th {
+				font-size: 1em;
+			}
 			.careers-td {
+				font-size: 0.75em;
+			}
+			.timetable-th {
+				font-size: 1em;
+			}
+			.timetable-td {
 				font-size: 0.75em;
 			}
 			.careers_table {
@@ -41,9 +52,55 @@
 			.timetable_table {
 				background-color: rgba(42, 55, 35, 0.527);
 			}
+			#scrolltop_button {
+				display: none;
+				position: fixed;
+				bottom: 20px;
+				right: 30px;
+				z-index: 2;
+				font-size: 18px;
+				border: none;
+				outline: none;
+				background: rgba(0,0,0,0.1);
+				color: rgb(255, 255, 255);
+				cursor: pointer;
+				padding: 15px;
+				border-radius: 4px;
+				font-family: font1;
+				font-size: 1em;
+			}
+			#scrolltop_button:hover {
+				transition-timing-function: ease;
+				transition: 0.2s;
+				background: rgba(0,0,0,0.2);
+			}
 		</style>
     </head>
     <body>
+		
+		<button onclick="topFunction()" id="scrolltop_button">Back to top</button>
+
+		<script>
+			let mybutton = document.getElementById("scrolltop_button");
+	
+				// When the user scrolls down 20px from the top of the document, show the button
+				window.onscroll = function() {scrollFunction()};
+				
+				function scrollFunction() {
+					if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+					mybutton.style.display = "block";
+					} else {
+					mybutton.style.display = "none";
+					}
+				}
+				
+				// When the user clicks on the button, scroll to the top of the document
+				function topFunction() {
+					document.body.scrollTop = 0;
+					document.documentElement.scrollTop = 0;
+				}
+		</script>
+
 		<header class="background_title">
 			<h1 class="header_title">Daksh Rokadia</h1>
 		</header>
@@ -126,53 +183,52 @@
 				
 				<table class="timetable_table">
 					<tr>
-						<th>Monday</th>
-						<th>Tuesday</th> 
-						<th>Wednesday</th>
-						<th>Thursday</th>
-						<th>Friday</th>
+						<th class="timetable-th">Monday</th>
+						<th class="timetable-th">Tuesday</th> 
+						<th class="timetable-th">Wednesday</th>
+						<th class="timetable-th">Thursday</th>
+						<th class="timetable-th">Friday</th>
 					</tr>
 					<tr>
-						<td>Maths</td>
-						<td>Business</td> 
-						<td>Science</td>
-						<td>Digital Technology</td>
-						<td>Integrated</td>
+						<td class="timetable-td">Maths</td>
+						<td class="timetable-td">Business</td> 
+						<td class="timetable-td">Science</td>
+						<td class="timetable-td">Digital Technology</td>
+						<td class="timetable-td">Integrated</td>
 					</tr>
 					<tr>
-						<td>Science</td>
-						<td>HuiAko</td> 
-						<td>Integrated</td>
-						<td>HuiAko</td>
-						<td>History</td>
+						<td class="timetable-td">Science</td>
+						<td class="timetable-td">HuiAko</td> 
+						<td class="timetable-td">Integrated</td>
+						<td class="timetable-td">HuiAko</td>
+						<td class="timetable-td">History</td>
 						</tr>
 					<tr>
-						<td>1st break</td>
-						<td>1st break</td> 
-						<td>1st break</td>
-						<td>1st break</td>
-						<td>1st break</td>
+						<td class="timetable-td">1st break</td>
+						<td class="timetable-td">1st break</td> 
+						<td class="timetable-td">1st break</td>
+						<td class="timetable-td">1st break</td>
+						<td class="timetable-td">1st break</td>
 					</tr>
 					<tr>
-						<td>Integrated</td>
-						<td>Digital Technology</td> 
-						<td>History</td>
-						<td>Maths</td>
-						<td>Business</td>
+						<td class="timetable-td">Integrated</td>
+						<td class="timetable-td">Digital Technology</td> 
+						<td class="timetable-td">History</td>
+						<td class="timetable-td">Maths</td>
+						<td class="timetable-td">Business</td>
 					</tr>
-						<tr>
-						<td>2st break</td>
-						<td>2st break</td> 
-						<td>2st break</td>
-						<td>2st break</td>
-						<td>2st break</td>
+						<td class="timetable-td">2st break</td>
+						<td class="timetable-td">2st break</td> 
+						<td class="timetable-td">2st break</td>
+						<td class="timetable-td">2st break</td>
+						<td class="timetable-td">2st break</td>
 					</tr>
 					<tr>
-						<td>History</td>
-						<td>Maths</td> 
-						<td>Business</td>
-						<td>Science</td>
-						<td>Digital Technology</td>
+						<td class="timetable-td">History</td>
+						<td class="timetable-td">Maths</td> 
+						<td class="timetable-td">Business</td>
+						<td class="timetable-td">Science</td>
+						<td class="timetable-td">Digital Technology</td>
 					</tr>
 				</table>
 			</div>
@@ -180,7 +236,7 @@
 		<section class="background_music">
 			<div class="wrapper">
 				<h3 id="my_favourite_music" class="section-title">My Favourite music</h3>
-				<p>To me, Music makes a major part of my life. I cant live without music. I have many songs i like but a few are shown below.</p>
+				<p>Music makes a major part of my life. I can't live without music. I have many songs I like but a few are shown below.</p>
 				<div class="music_1_container">
 					<p id="music_1_name">Like My Father</p>
 					<p id="music_1_artist">Jax</p>
