@@ -179,6 +179,20 @@ html {
     padding: 30px;
 }
 
+.background_career_info {
+
+    position: relative;
+    background-image: linear-gradient(
+                                        40deg,
+                                        rgb(35, 44, 55),
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39)
+                                    );
+    margin: 15px;
+    border-radius: 5px;
+    padding: 30px;
+}
 section {
     padding-block: 5rem;
 
@@ -193,6 +207,10 @@ section {
 
 .section-title {
     font-size: 2.5rem;
+}
+
+.sub-section-title {
+    font-size: 1.6rem;
 }
 
 
