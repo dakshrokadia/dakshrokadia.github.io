@@ -6,7 +6,7 @@
 
 body {
     font-family: system-ui;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     line-height: 1.5;
     margin: 0;
 
@@ -247,6 +247,11 @@ p {
 
 .music_2_container {
     border-left: 3px solid rgba(103, 170, 212, 0.811);
+    padding-left: 10px;
+}
+
+.music_3_container {
+    border-left: 3px solid rgba(197, 212, 103, 0.811);
     padding-left: 10px;
 }
 
