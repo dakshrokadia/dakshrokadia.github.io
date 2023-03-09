@@ -135,15 +135,7 @@ html {
 .background_timetable {
 
     position: relative;
-    background-image: linear-gradient(
-                                        -70deg,
-                                        rgb(42, 55, 35),
-                                        rgb(39, 39, 39),
-                                        rgb(39, 39, 39),
-                                        rgb(39, 39, 39),
-                                        rgb(39, 39, 39),
-                                        rgb(39, 39, 39)
-                                    );
+    background-color: rgb(39, 39, 39);
     margin: 15px;
     border-radius: 5px;
     padding: 30px;
@@ -226,6 +218,23 @@ table, td, th {
     
 }
 
+.careers_link_button {
+    background-color: rgb(39, 39, 39);
+    width: 200px;
+    height: 1px;
+    border: none;
+	outline: none;
+    font-size: 1.2rem;
+}
+.careers_link_button:hover {
+    transition-timing-function: ease;
+	transition: 0.2s;
+    background-color: rgb(77, 76, 76);
+    width: 200px;
+    height: 50px;
+    border: none;
+	outline: none;
+}
 
 
 
@@ -271,6 +280,7 @@ p {
 .music_3_container {
     border-left: 3px solid rgba(197, 212, 103, 0.811);
     padding-left: 10px;
+    
 }
 
 
