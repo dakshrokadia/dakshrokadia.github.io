@@ -185,6 +185,22 @@ html {
     border-radius: 5px;
     padding: 30px;
 }
+
+.background_this_project {
+
+    position: relative;
+    background-image: linear-gradient(
+                                        120deg,
+                                        rgb(41, 35, 55),
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39)
+                                    );
+    margin: 15px;
+    border-radius: 5px;
+    padding: 30px;
+}
+
 section {
     padding-block: 5rem;
 
