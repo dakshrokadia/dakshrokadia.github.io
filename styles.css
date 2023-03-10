@@ -234,22 +234,27 @@ table, td, th {
     
 }
 
-.careers_link_button {
-    background-color: rgb(39, 39, 39);
-    width: 200px;
-    height: 1px;
+.link_button {
+    background-color: rgba(92, 92, 92, 0.1);
+    width: 250px;
+    height: 2.5rem;
     border: none;
 	outline: none;
     font-size: 1.2rem;
+    text-align: middle;
+    border-radius: 2px;
 }
-.careers_link_button:hover {
+.link_button:hover {
     transition-timing-function: ease;
 	transition: 0.2s;
-    background-color: rgb(77, 76, 76);
-    width: 200px;
+    background-color: rgb(76, 76, 76, 0.25);
+    width: 250px;
     height: 50px;
     border: none;
 	outline: none;
+    text-align: middle;
+    font-size: 1.4rem;
+    padding: 0px;
 }
 
 
