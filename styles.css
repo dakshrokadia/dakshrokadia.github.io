@@ -235,7 +235,7 @@ table, td, th {
 }
 
 .link_button {
-    background-color: rgba(92, 92, 92, 0.1);
+    background-color: rgba(92, 92, 92, 0.09);
     width: 250px;
     height: 2.5rem;
     border: none;
@@ -247,7 +247,7 @@ table, td, th {
 .link_button:hover {
     transition-timing-function: ease;
 	transition: 0.2s;
-    background-color: rgb(76, 76, 76, 0.25);
+    background-color: rgb(76, 76, 76, 0.2);
     width: 250px;
     height: 50px;
     border: none;
