@@ -13,10 +13,11 @@ body {
     -ms-overflow-style: none; /* for Internet Explorer, Edge */
     scrollbar-width: none; /* for Firefox */
     overflow-y: scroll; 
-    overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
-
+body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
 
 html {
     scroll-behavior: smooth;
@@ -134,7 +135,15 @@ html {
 .background_timetable {
 
     position: relative;
-    background-color: rgb(39, 39, 39);
+    background-image: linear-gradient(
+                                        -70deg,
+                                        rgb(42, 55, 35),
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39)
+                                    );
     margin: 15px;
     border-radius: 5px;
     padding: 30px;
@@ -184,22 +193,6 @@ html {
     border-radius: 5px;
     padding: 30px;
 }
-
-.background_this_project {
-
-    position: relative;
-    background-image: linear-gradient(
-                                        120deg,
-                                        rgb(41, 35, 55),
-                                        rgb(39, 39, 39),
-                                        rgb(39, 39, 39),
-                                        rgb(39, 39, 39)
-                                    );
-    margin: 15px;
-    border-radius: 5px;
-    padding: 30px;
-}
-
 section {
     padding-block: 5rem;
 
@@ -233,28 +226,6 @@ table, td, th {
     
 }
 
-.link_button {
-    background-color: rgba(92, 92, 92, 0.09);
-    width: 250px;
-    height: 2.5rem;
-    border: none;
-	outline: none;
-    font-size: 1.2rem;
-    text-align: middle;
-    border-radius: 2px;
-}
-.link_button:hover {
-    transition-timing-function: ease;
-	transition: 0.2s;
-    background-color: rgb(76, 76, 76, 0.2);
-    width: 250px;
-    height: 50px;
-    border: none;
-	outline: none;
-    text-align: middle;
-    font-size: 1.4rem;
-    padding: 0px;
-}
 
 
 
@@ -300,7 +271,6 @@ p {
 .music_3_container {
     border-left: 3px solid rgba(197, 212, 103, 0.811);
     padding-left: 10px;
-    
 }
 
 
