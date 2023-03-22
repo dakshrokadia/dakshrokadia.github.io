@@ -1,0 +1,306 @@
+
+@font-face {
+    font-family: font1;
+    src: url(font1.ttf);
+}
+
+body {
+    font-family: system-ui;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 0;
+
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+    color-scheme: dark;
+}
+
+.background_title {
+    width: auto;
+    height: 500px;
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin: 15px;
+    padding-top: 100px;
+    padding-bottom: 1px;
+    border-radius: 5px;
+}
+
+.header_title {
+
+    font-size: 5.5em;
+    text-align: center;
+    font-family: font1;
+    color: rgb(255, 255, 255);
+
+}
+
+.background_contents {
+    background-image: linear-gradient(
+                                        8deg,
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39),
+                                        rgb(44, 44, 44),
+                                        rgb(38, 38, 83)
+                                    );
+    margin: 15px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.background_about {
+
+    position: relative;
+    background-image: linear-gradient(
+                                        220deg,
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39),
+                                        rgb(44, 44, 44),
+                                        rgb(83, 82, 38)
+                                    );
+    margin: 15px;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.background_family {
+
+    position: relative;
+    background-image: linear-gradient(
+                                        145deg,
+                                        rgb(83, 82, 38),
+                                        rgb(39, 39, 39) 30%,
+                                        rgb(39, 39, 39) 80%,
+                                        rgb(83, 38, 63)
+                                        );
+    margin: 15px;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.background_nz {
+
+    position: relative;
+    background-image: linear-gradient(
+                                        55deg,
+                                        rgb(39, 39, 39) 75%,
+                                        rgb(83, 38, 63)
+                                    );
+    margin: 15px;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.background_internet {
+
+    position: relative;
+    background-image: linear-gradient(
+                                        -140deg,
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39),
+                                        rgb(53, 64, 73)
+                                    );
+    margin: 15px;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.background_subjects {
+
+    position: relative;
+    background-image: linear-gradient(
+                                        130deg,
+                                        rgb(53, 64, 73),
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39)
+                                    );
+    margin: 15px;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.background_timetable {
+
+    position: relative;
+    background-color: rgb(39, 39, 39);
+    margin: 15px;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.background_music {
+
+    position: relative;
+    background-image: linear-gradient(
+                                        -70deg,
+                                        rgb(42, 55, 35),
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39)
+                                    );
+    margin: 15px;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.background_career {
+
+    position: relative;
+    background-image: linear-gradient(
+                                        240deg,
+                                        rgb(42, 55, 35),
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39)
+                                    );
+    margin: 15px;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.background_career_info {
+
+    position: relative;
+    background-image: linear-gradient(
+                                        60deg,
+                                        rgb(41, 35, 55),
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39)
+                                    );
+    margin: 15px;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.background_this_project {
+
+    position: relative;
+    background-image: linear-gradient(
+                                        120deg,
+                                        rgb(41, 35, 55),
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39),
+                                        rgb(39, 39, 39)
+                                    );
+    margin: 15px;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+section {
+    padding-block: 5rem;
+
+}
+
+/* have to do site-title*/
+.wrapper {
+    max-width: 70rem;
+    margin-inline: auto;
+    padding-inline: 1rem;
+}
+
+.section-title {
+    font-size: 2.5rem;
+}
+
+.sub-section-title {
+    font-size: 1.6rem;
+}
+
+
+/*table*/
+
+table, td, th {
+    border: 1px solid black;
+    background-color: rgba(214, 214, 2104, 0.28);
+    padding: 15px;
+    
+    text-align: center;
+    border-collapse: collapse;
+    
+}
+
+.link_button {
+    background-color: rgba(92, 92, 92, 0.09);
+    width: 250px;
+    height: 2.5rem;
+    border: none;
+	outline: none;
+    font-size: 1.2rem;
+    text-align: middle;
+    border-radius: 2px;
+}
+.link_button:hover {
+    transition-timing-function: ease;
+	transition: 0.2s;
+    background-color: rgb(76, 76, 76, 0.2);
+    width: 250px;
+    height: 50px;
+    border: none;
+	outline: none;
+    text-align: middle;
+    font-size: 1.4rem;
+    padding: 0px;
+}
+
+
+
+/*
+h1 {
+    font-size: 50px;
+    font-family:'Georgia', Times, serif;
+}
+
+h3 {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h5 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+*/
+
+
+
+/*other*/
+
+
+.container_timetable {
+    background-color: antiquewhite;
+
+}
+
+.music_1_container {
+    border-left: 3px solid rgba(171, 67, 203, 0.542);
+    padding-left: 10px;
+}
+
+.music_2_container {
+    border-left: 3px solid rgba(103, 170, 212, 0.811);
+    padding-left: 10px;
+}
+
+.music_3_container {
+    border-left: 3px solid rgba(197, 212, 103, 0.811);
+    padding-left: 10px;
+    
+}
+
+
