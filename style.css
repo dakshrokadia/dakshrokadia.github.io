@@ -2,31 +2,12 @@
     font-family: font1;
     src: url(font1.ttf);
 }
-
-body {
-    background: linear-gradient(144deg, #68d7c4, #68d1d7, #68bed7, #68a0d7, #6892d7, #687ed7, #686ad7, #7968d7);
-    background-size: 1600% 1600%;
-
-    -webkit-animation: AnimationName 16s ease infinite;
-    -moz-animation: AnimationName 16s ease infinite;
-    animation: AnimationName 16s ease infinite;
+.background {
+    background-image: url("UnicornVectorGradient_8.jpg");
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
 }
 
-@-webkit-keyframes AnimationName {
-    0%{background-position:9% 0%}
-    50%{background-position:92% 100%}
-    100%{background-position:9% 0%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:9% 0%}
-    50%{background-position:92% 100%}
-    100%{background-position:9% 0%}
-}
-@keyframes AnimationName {
-    0%{background-position:9% 0%}
-    50%{background-position:92% 100%}
-    100%{background-position:9% 0%}
-}
 .menu {
     padding: 10px;
 
@@ -40,27 +21,40 @@ body {
 
     width: 500px;
     height: 400px;
-    background-color: rgba(255, 255, 255, .04);
 }
-.personal_page {
+.website1 {
     display: inline-block;
     width: 245.5px;
     height: 400px;
-    background-color: rgba(255, 255, 255, .04);  
+    background-color: rgba(255, 255, 255, .05);  
     backdrop-filter: blur(50px);
     border-radius: 5px;
     margin-right: 2.5px;
+}
+.website1:hover {
+    transition-timing-function: ease;
+	transition: 0.2s;
+    background-color: rgba(255, 255, 255, .1);  
+    backdrop-filter: blur(50px);
 
 }
+
+
 .website2 {
     display: inline-block;
     width: 245.5px;
     height: 400px;
-    background-color: rgba(255, 255, 255, 0.04);  
+    background-color: rgba(255, 255, 255, 0.05);  
     backdrop-filter: blur(5px);
     border-radius: 5px;
     margin-left: 2.5px;
+}
 
+.website2:hover {
+    transition-timing-function: ease;
+	transition: 0.2s;
+    background-color: rgba(255, 255, 255, .1);  
+    backdrop-filter: blur(50px);
 }
 
 .title {
@@ -83,3 +77,4 @@ body {
 .abc {
     height: 100px;
 }
+
