@@ -1,0 +1,20 @@
+body {
+    background-color: aliceblue;
+}
+
+.background_title {
+    width: auto;
+    height: 400px;
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    font-size: 3rem;
+}
+
+.madeby {
+    font-size: 1.3rem;
+}
+
