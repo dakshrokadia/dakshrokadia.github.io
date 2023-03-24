@@ -29,6 +29,7 @@ html {
     background-image: url("1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: left 50% bottom 60%;
 
     margin: 15px;
     padding-top: 100px;

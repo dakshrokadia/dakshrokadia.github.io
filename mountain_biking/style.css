@@ -5,6 +5,7 @@ body {
 .background_title {
     width: auto;
     height: 400px;
+    background-position: left 50% bottom 30%;
     background-image: url("1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
