@@ -4,7 +4,8 @@
 }
 
 body {
-    background-color: rgb(70, 111, 147);
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
 }
 
 .background_title {
@@ -40,4 +41,32 @@ body {
     font-family: font1;
     color: white;
     line-height: 1;
+}
+
+section {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header {
+    font-size: 2rem;
+}
+
+.contents {
+    padding-left: 5%;
+}
+
+.section_contents {
+    background-color: rgba(152, 152, 152, 0.1);
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 3%;
+    padding-left: 3%;
+}
+
+.section_1 {
+    margin-top: 3%;
+    background-color: rgba(151, 202, 132, 0.1);
 }
