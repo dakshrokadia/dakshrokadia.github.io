@@ -6,7 +6,17 @@
 body {
     background-color: rgb(255, 255, 255);
     margin: 0px;
+    padding: 0px;
 }
+main {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+
+
+
 
 .background_title {
     width: auto;
@@ -17,6 +27,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+/*title*/
 
 .title_div{
     font-size: 3rem;
@@ -36,6 +47,10 @@ body {
     border-radius: 7px;
 }
 
+.header {
+    font-size: 2rem;
+}
+
 .madeby {
     font-size: 1.3rem;
     font-family: font1;
@@ -43,42 +58,55 @@ body {
     line-height: 1;
 }
 
-section {
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
 
 .header {
     font-size: 2rem;
 }
 
-.contents {
-    padding-left: 5%;
-}
+
+/*section*/
 
 .section_contents {
     background-color: rgba(152, 152, 152, 0.1);
 }
 
-.section_1 {
-    margin-top: 3%;
-    background-color: rgba(151, 202, 132, 0.1);
-}
-.img1 {
+main > header {
     height: 100vh;
-    width: auto;
-    background-image: url("images/img1.jpg");
-    background-position: left 50% bottom 40%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
 }
-.img2 {
-    height: 60vh;
-    width: 50px;
+
+main > section {
+    height: 100vh;
+    display: flex;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
+
+main > section:nth-child(odd) {
+    background: #80ffd4;
+}
+
+main > section > div {
+    font-size: 20px;
+    font-weight: 700;
+    color: #652e2e;
+}
+
+
+
+.section1_1 {
+    float: left;
+    width: 50vw;
+    height: 100vh;
     background-image: url("images/img7.jpg");
-    background-position: left 50% bottom 40%;
     background-repeat: no-repeat;
     background-size: cover;
+
+}
+
+.section1_2 {
+    float: right;
+    width: 50vw;
+    height: 100vh;
 }
