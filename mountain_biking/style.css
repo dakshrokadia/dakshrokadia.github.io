@@ -104,9 +104,61 @@ main > section > div {
     background-size: cover;
 
 }
-
 .section1_2 {
     float: right;
     width: 50vw;
     height: 100vh;
 }
+
+.section2_1 {
+    background-image: url("images/img1.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section3_1 {
+    float: left;
+    width: 60vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section3_2 {
+    float: right;
+    background-image: url("images/img10.jpg");
+    width: 40vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left 50% bottom 40%;
+}
+
+.section4_1 {
+    float: left;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("images/img4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left 50% bottom 40%;
+}
+
+.section5_1 {
+    float: left;
+    width: 50vw;
+    height: 100vh;
+    background-image: url("images/img13.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left 50% bottom 40%;
+}
+.section5_2 {
+    float: right;
+    width: 50vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
