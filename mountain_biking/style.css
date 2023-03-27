@@ -122,6 +122,12 @@ main > section > div {
     border-radius: 7px;
 }
 
+.section1_content_div {
+    padding: 20px;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .section2_1 {
     background-image: url("images/img1.JPG");
     width: 100%;
