@@ -59,11 +59,6 @@ main {
 }
 
 
-.header {
-    font-size: 2rem;
-}
-
-
 /*section*/
 
 .section_contents {
@@ -97,7 +92,7 @@ main > section > div {
 
 .section1_1 {
     float: left;
-    width: 50vw;
+    width: 50%;
     height: 100vh;
     background-image: url("images/img7.jpg");
     background-repeat: no-repeat;
@@ -106,13 +101,13 @@ main > section > div {
 }
 .section1_2 {
     float: right;
-    width: 50vw;
+    width: 50%;
     height: 100vh;
 }
 
 .section2_1 {
     background-image: url("images/img1.JPG");
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -120,7 +115,7 @@ main > section > div {
 
 .section3_1 {
     float: left;
-    width: 60vw;
+    width: 60%;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -128,7 +123,7 @@ main > section > div {
 .section3_2 {
     float: right;
     background-image: url("images/img10.jpg");
-    width: 40vw;
+    width: 40%;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -137,7 +132,7 @@ main > section > div {
 
 .section4_1 {
     float: left;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-image: url("images/img4.jpg");
     background-repeat: no-repeat;
@@ -147,7 +142,7 @@ main > section > div {
 
 .section5_1 {
     float: left;
-    width: 50vw;
+    width: 50%;
     height: 100vh;
     background-image: url("images/img13.jpg");
     background-repeat: no-repeat;
@@ -156,9 +151,12 @@ main > section > div {
 }
 .section5_2 {
     float: right;
-    width: 50vw;
+    width: 50%;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.wrapper {
+    width: 100vw;
+}
