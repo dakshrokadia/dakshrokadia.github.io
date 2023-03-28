@@ -7,6 +7,11 @@ body {
     background-color: rgb(255, 255, 255);
     margin: 0px;
     padding: 0px;
+    
+}
+html {
+    scroll-behavior: smooth;
+    color-scheme: dark;
 }
 
 main {
@@ -86,7 +91,7 @@ main > section:nth-child(odd) {
 main > section > div {
     font-size: 20px;
     font-weight: 700;
-    color: #652e2e;
+    color: #002aff;
 }
 
 
@@ -122,15 +127,28 @@ main > section > div {
     float: right;
     width: 50%;
     height: 100vh;
+    background-image: linear-gradient(
+                                    330deg,
+                                    rgb(10, 10, 10)70%,
+                                    rgb(16, 32, 23)
+                                    );
 }
 .section1_content_div {
-    padding: 20px;
-    color: black;
+
+    color: rgb(255, 255, 255);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 4vw;
+    padding: 3vw;
     font-size: 1.5rem;
     line-height: 1.5;
 }
+.test {
+    background-color: rgba(27, 27, 27, 0.4);
+    padding: 1px 30px;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    
+}
+
 
 .section2_1 {
     background-image: url("images/img1.JPG");
