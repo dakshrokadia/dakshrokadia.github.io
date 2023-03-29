@@ -162,8 +162,11 @@ main > section > div {
     float: left;
     width: 60%;
     height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: linear-gradient(
+                                    210deg,
+                                    rgb(10, 10, 10)70%,
+                                    rgb(16, 20, 32)
+                                    );
 }
 .section3_2 {
     float: right;
@@ -180,9 +183,9 @@ main > section > div {
     font-family: font1;
     color: white;
     background-image: linear-gradient(
-                                    330deg,
+                                    20deg,
                                     rgba(255, 255, 255, 0.1),
-                                    rgb(124, 154, 187)
+                                    rgb(202, 212, 203)
                                     );
     display: inline-block;
     padding-left: 30px;
@@ -197,7 +200,7 @@ main > section > div {
     float: left;
     width: 100%;
     height: 100vh;
-    background-image: url("images/img4.jpg");
+    background-image: url("images/img15.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left 50% bottom 40%;
