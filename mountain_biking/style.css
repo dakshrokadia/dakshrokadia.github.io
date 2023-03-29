@@ -210,7 +210,7 @@ main > section > div {
     float: left;
     width: 50%;
     height: 100vh;
-    background-image: url("images/img13.jpg");
+    background-image: url("images/img16.JPEG");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left 50% bottom 40%;
@@ -219,10 +219,79 @@ main > section > div {
     float: right;
     width: 50%;
     height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: linear-gradient(
+                                    140deg,
+                                    rgb(10, 10, 10)70%,
+                                    rgb(32, 16, 24)
+                                    );
 }
 
 .wrapper {
     width: 100vw;
+}
+
+.section5_title_div {
+    font-size: 2.5rem;
+    font-family: font1;
+    color: white;
+    background-image: linear-gradient(
+                                    330deg,
+                                    rgba(255, 255, 255, 0.1),
+                                    rgb(212, 189, 162)
+                                    );
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    line-height: 0;
+    border-radius: 7px;
+}
+
+.section6_1 {
+    float: left;
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/img17.JPEG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left 50% bottom 40%;
+}
+
+.section7_1 {
+    float: left;
+    width: 60%;
+    height: 100vh;
+    background-image: linear-gradient(
+                                    210deg,
+                                    rgb(10, 10, 10)70%,
+                                    rgb(16, 20, 32)
+                                    );
+}
+.section7_2 {
+    float: right;
+    background-image: url("images/img5.jpg");
+    width: 40%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left 50% bottom 40%;
+}
+
+.section7_title_div {
+    font-size: 2rem;
+    font-family: font1;
+    color: white;
+    background-image: linear-gradient(
+                                    20deg,
+                                    rgba(255, 255, 255, 0.1),
+                                    rgb(202, 212, 203)
+                                    );
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    line-height: 0;
+    border-radius: 7px;
 }
