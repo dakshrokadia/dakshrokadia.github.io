@@ -265,7 +265,7 @@ main > section > div {
     background-image: linear-gradient(
                                     210deg,
                                     rgb(10, 10, 10)70%,
-                                    rgb(16, 20, 32)
+                                    rgb(21, 29, 51)
                                     );
 }
 .section7_2 {
@@ -295,3 +295,24 @@ main > section > div {
     line-height: 0;
     border-radius: 7px;
 }
+
+.section8_1 {
+    float: left;
+    background-image: url("images/img18.jpg");
+    width: 50%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left 50% bottom 40%;
+}
+video {
+    float: right;
+    width: 50%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left 50% bottom 40%;
+    background-color: rgb(255, 255, 255);
+}
+
+
