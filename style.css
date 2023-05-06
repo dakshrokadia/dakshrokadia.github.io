@@ -80,3 +80,11 @@
     text-decoration: none;
 }
 
+.lastupdated {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.593);
+    font-family: font1;
+}
+span {
+    color: rgba(255, 252, 176, 0.841);
+}
