@@ -1,3 +1,44 @@
+@font-face {
+    font-family: font1;
+    src: url(font1.ttf);
+}
+@font-face {
+    font-family: font2;
+    src: url(font2.ttf);
+}
+@font-face {
+    font-family: font2b;
+    src: url(font2b.ttf);
+}
+
 body {
-    background-color: blue;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.left {
+    background-color: rgba(255, 0, 0, 0.285);
+    float: left;
+    width: 50%;
+    height: 100vh;
+}
+.right {
+    background-color: rgba(0, 0, 255, 0.312);
+    float: right;
+    width: 50%;
+    height: 100vh;
+}
+
+.name {
+    font-size: 3rem;
+    font-family: font2b;
+    line-height: 0rem;
+    text-align: center;
+}
+.myprojects {
+    font-size: 2.5rem;
+    font-family: font2;
+    line-height: 0rem;
+    text-align: center;
 }
