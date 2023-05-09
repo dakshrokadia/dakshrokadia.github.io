@@ -19,18 +19,18 @@ html, body {
 }
 
 .title{
-    background-color: red;
+    background-color: rgba(81, 0, 255, 0.948);
     height: 100vh;
     position:absolute;
     width: 100%;
 
-    background-image: url("Background1.jpg");
+    background-image: url("Background3.png");
     background-position: left 40% bottom 90%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .titlebox {
-    background-color: rgba(0, 0, 0, 0.389);
+    background-color: rgba(188, 45, 45, 0);
     position: absolute;
     margin-top: 20vh;
     margin-left: 10%;
@@ -51,7 +51,7 @@ html, body {
     font-size: 1rem;
     font-family: Cascadia;
     line-height: 0rem;
-    color: rgb(247, 255, 233);
+    color: rgb(255, 255, 255);
     overflow-wrap: break-word;
 }
 
