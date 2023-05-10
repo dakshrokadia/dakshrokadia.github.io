@@ -16,12 +16,14 @@
 }
 html, body {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .title{
     background-color: rgba(81, 0, 255, 0.948);
     height: 100vh;
-    position:absolute;
+
     width: 100%;
 
     background-image: url("Background3.png");
@@ -30,7 +32,7 @@ html, body {
     background-size: cover;
 }
 .titlebox {
-    background-color: rgba(188, 45, 45, 0);
+    background-color: rgba(188, 45, 45, 0.744);
     position: absolute;
     margin-top: 20vh;
     margin-left: 10%;
@@ -70,4 +72,9 @@ html, body {
 }
 .white{
     color: #ffffff;
+}
+
+section {
+    padding: 10px;
+    background-color: red;
 }
