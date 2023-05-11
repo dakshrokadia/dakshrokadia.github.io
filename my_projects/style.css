@@ -32,7 +32,7 @@ html, body {
     background-size: cover;
 }
 .titlebox {
-    background-color: rgba(188, 45, 45, 0.744);
+    background-color: rgba(255, 255, 255, 0);
     position: absolute;
     margin-top: 20vh;
     margin-left: 10%;
@@ -75,6 +75,84 @@ html, body {
 }
 
 section {
-    padding: 10px;
-    background-color: red;
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    padding-left: 50%;
+    margin-left: -35vw;
+    padding-top: 10px;
+}
+/* (A) TIMELINE CONTAINER */
+.vtl {
+    /* (A1) RELATIVE POSITION REQUIRED TO PROPERLY POSITION THE TIMELINE */
+    position: relative;
+
+    /* (A2) RESERVE MORE SPACE TO THE LEFT FOR THE TIMELINE */
+    padding: 10px 10px 10px 50px;
+
+    /* (A3) OPTIONAL WIDTH RESTRICTION */
+    width: 70vw;
+    
+}
+  .vtl, .vtl * { box-sizing: border-box; }
+
+  /* (B) DRAW VERTICAL LINE USING ::BEFORE */
+.vtl::before {
+    /* (B1) VERTICAL LINE */
+    content: "";
+    width: 5px;
+    background-color: #a585f0;
+
+    /* (B2) POSITION TO THE LEFT */
+    position: absolute;
+    top: 0; bottom: 0; left: 15px;
+    border-radius: 5px;
+}
+
+  /* (C) COSMETICS FOR EVENTS */
+div.event {
+    padding: 20px 30px;
+    background-color: #ded8f4;
+    position: relative;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+  /* (D) COSMETICS FOR EVENT DATE & TEXT */
+p.date {
+    font-size: 1.1em;
+    font-weight: 700;
+    color: #ff6a00;
+}
+p.txt {
+    margin: 10px 0 0 0;
+    color: #222;
+}
+
+  /* (E) EVENT "SPEECH BUBBLE CALLOUT" */
+div.event::before {
+    /* (E1) "MAGIC TRIANGLE" */
+    content: "";
+    border: 10px solid transparent;
+    border-right-color: #ded8f4;
+    border-left: 0;
+
+     /* (E2) POSITION TO THE LEFT */
+    position: absolute;
+    top: 20%; left: -10px;
+}
+
+  /* (F) CIRCLE ON TIMELINE */
+div.event::after {
+    /* (F1) "MAGIC CIRCLE" */
+    content: "";
+    background: #fff;
+    border: 4px solid #b98ee1;
+    width: 16px; height: 16px;
+    border-radius: 50%;
+
+    /* (F2) POSITION TO THE LEFT */
+    position: absolute;
+    top: 20%; left: -44px;
 }
