@@ -74,6 +74,41 @@ html, body {
     color: #ffffff;
 }
 
-section.a {
-    background-color: rgb(195, 35, 35);
+.container_s1{
+    background-color: blue;
+    margin-top: 15vh;
 }
+.div_one{
+    background-color: red;
+    float: left;
+    width: 20%;
+    position: relative;
+    margin-left: 15%;
+    margin-right: 5%;
+    
+    height: 70vh;
+    margin-bottom: 15vh;
+}
+.div_two{
+    background-color: #82aaff;
+    float: left;
+    width: 20%;
+    position: relative;
+
+    height: 70vh;
+    margin-bottom: 15vh;
+}
+
+.div_three{
+    background-color: #c3e88d;
+    float: left;
+    width: 20%;
+    position: relative;
+    margin-left: 5%;
+    margin-right: 15%;
+
+    height: 70vh;
+    margin-bottom: 15vh;
+}
+
+
