@@ -26,7 +26,7 @@ html, body {
 
     width: 100%;
 
-    background-image: url("Background3.png");
+    background-image: url("Background4.png");
     background-position: left 40% bottom 90%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -84,19 +84,47 @@ html, body {
     width: 20%;
     position: relative;
     margin-left: 15%;
-    margin-right: 5%;
-    
+
+    margin-top: 15vh;
     height: 70vh;
     margin-bottom: 15vh;
+    position: absolute;
+    border-radius: 3px;
+
+    background-image: url("gradient1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+.div_one:hover{
+    width: 70%;
+    transition-timing-function: ease;
+	transition: 0.4s;
+    z-index: 10;
+}
+
 .div_two{
     background-color: #82aaff;
     float: left;
     width: 20%;
     position: relative;
+    margin-left: 40%;
 
+    margin-top: 15vh;
     height: 70vh;
     margin-bottom: 15vh;
+    position: absolute;
+    border-radius: 3px;
+
+    background-image: url("gradient2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div_two:hover{
+    margin-left: 15%;
+    width: 70%;
+    transition-timing-function: ease;
+	transition: 0.4s;
+    z-index: 10;
 }
 
 .div_three{
@@ -104,11 +132,46 @@ html, body {
     float: left;
     width: 20%;
     position: relative;
-    margin-left: 5%;
-    margin-right: 15%;
+    margin-left: 65%;
 
+    margin-top: 15vh;
     height: 70vh;
     margin-bottom: 15vh;
+    position: absolute;
+    border-radius: 3px;
+
+    background-image: url("gradient3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div_three:hover{
+    margin-left: 15%;
+    width: 70%;
+    transition-timing-function: ease;
+	transition: 0.4s;
+    z-index: 10;
 }
 
+.div_four{
+    position: absolute;
+    background-color: rgb(238, 238, 238);
+
+    left: 50%;
+
+    font-family: font1;
+    font-size: 1.3em;
+
+    bottom: -93vh;
+    width: 10%;
+    margin-left: -5%;
+    
+    padding: 7px;
+    border-radius: 3px;
+
+    text-align: center;
+}
+
+.a {
+    height: 100vh;
+}
 
