@@ -94,12 +94,17 @@ html, body {
     background-image: url("gradient1.png");
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 .div_one:hover{
     width: 70%;
     transition-timing-function: ease;
 	transition: 0.4s;
-    z-index: 10;
+    z-index: 1;
+
+    transform: scale(1.2);
+    display: block;
+
 }
 
 .div_two{
@@ -117,7 +122,8 @@ html, body {
 
     background-image: url("gradient2.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;;
+
 }
 .div_two:hover{
     margin-left: 15%;
@@ -125,6 +131,9 @@ html, body {
     transition-timing-function: ease;
 	transition: 0.4s;
     z-index: 10;
+
+    transform: scale(1.2);
+    display: block;
 }
 
 .div_three{
@@ -143,25 +152,30 @@ html, body {
     background-image: url("gradient3.png");
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 .div_three:hover{
     margin-left: 15%;
     width: 70%;
     transition-timing-function: ease;
 	transition: 0.4s;
-    z-index: 10;
+    z-index: 1;
+
+    transform: scale(1.2);
+    display: block;
 }
 
-.div_four{
+#div_four{
     position: absolute;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(242, 242, 242);
+    color: rgb(172, 171, 171);
 
     left: 50%;
 
     font-family: font1;
     font-size: 1.3em;
 
-    bottom: -93vh;
+    bottom: -91vh;
     width: 10%;
     margin-left: -5%;
     
